@@ -1,4 +1,4 @@
-name: 测试构建1
+name: 测试构建
 # on: [push]
 on:
   repository_dispatch:
