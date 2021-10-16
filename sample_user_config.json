@@ -3,9 +3,14 @@
         "pid": "0x0001",
         "vid": "0x46f4",
         "sn": "1234XXX123",
-        "mac1": "XXYYXXYYXXYY"
+        "mac1": "XXYYXXYYXXYY",
+        "mac2": "XXYYXXYYXXYX"
     },
-    "synoinfo": {},
+    "synoinfo": {
+    "internalportcfg":"0xffff",
+     "esataportcfg":"0x0",
+     "maxdisks："16"
+    },
     "ramdisk_copy": {},
     "extensions": []
 }
