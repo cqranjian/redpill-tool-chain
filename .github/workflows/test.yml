@@ -1,5 +1,10 @@
 name: 测试构建1
-on: [push]
+# on: [push]
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: 0 18 */3 * *
 jobs:
   build:
     runs-on: ubuntu-latest
