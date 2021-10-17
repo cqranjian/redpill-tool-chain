@@ -1,4 +1,4 @@
-name: 2X构建
+name: 2ESATA构建
 # on: [push]
 on:
   repository_dispatch:
